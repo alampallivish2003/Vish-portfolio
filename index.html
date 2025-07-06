@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishnu Alampalli | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <!-- Desktop Navigation -->
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+      <div class="logo">Vishnu Alampalli</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hamburger Navigation (Mobile) -->
+    <nav id="hamburger-nav">
+      <div class="logo">V.A</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+      <div class="section_pic-container">
+        <img
+          src="./assets/profile.jpg"
+          alt="Vishnu Alampalli Profile Picture"
+        />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class="title">Vishnu Alampalli</h1>
+
+        <!-- Buttons -->
+        <div class="btn-container">
+          <a
+            href="./assets/Vishnu-Alampalli-Resume.pdf"
+            download
+            class="btn btn-color-2"
+          >
+            Resume</a
+          >
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+
+        <!-- Social Icons -->
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vishnu-alampalli-37490a227/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="GitHub"
+            class="icon"
+            onclick="location.href='https://github.com/alampallivish2003'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="section-container">
+        <div class="section__text">
+          <h2 class="title">About Me</h2>
+          <div class="section_p">
+            <p>
+              I'm <strong>"Vishnu Alampalli"</strong>, a
+              <strong>Computer Science Engineering student</strong> passionate
+              about building innovative and practical solutions using
+              technology. I have completed my Bachelor's degree at Basaveshwar
+              Engineering College (2021–2025), with a strong academic foundation
+              and a hands-on approach to learning.
+            </p>
+            <p>
+              My key strengths include web development, Python programming, and
+              machine learning. I've developed multiple academic projects such
+              as a <strong>Toxic Comment Classification System</strong> using
+              deep learning and a
+              <strong>School Management System</strong> using Django. I enjoy
+              turning complex challenges into simple, elegant solutions.
+            </p>
+
+            <p>
+              I'm also actively involved in extracurricular activities as the
+              <strong
+                >Design Secretary of FOCUS (Forum of Computer Science
+                Undergraduate Students)</strong
+              >, where I contribute to event planning, poster design, and
+              creative content. Additionally, I have a background in martial
+              arts, having won a <strong>Gold Medal</strong> in the state-level
+              and <strong>Bronze Medal</strong> in
+              <strong>South Zone Pencak Silat championships</strong> .
+            </p>
+            <p>
+              Outside of academics, I enjoy listening to music, watching movies,
+              and traveling. I'm always eager to learn, grow, and contribute
+              meaningfully to any project or team I'm part of.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- my skills/ -->
+    <section id="Skills">
+      <div class="inner">
+        <div class="header">
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="container">
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img
+                  src="./assets/pyhton.jpg"
+                  class="skill-icon"
+                  alt="Python"
+                />
+              </div>
+              <h3>Python</h3>
+            </div>
+            <span class="skill-level">Advanced</span>
+            <div class="skill-bar" style="--level: 90%"></div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img src="./assets/java.jpg" class="skill-icon" alt="Java" />
+              </div>
+              <h3>Java</h3>
+            </div>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar" style="--level: 70%"></div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img src="./assets/html.jpg" class="skill-icon" alt="HTML" />
+              </div>
+              <h3>HTML</h3>
+            </div>
+            <span class="skill-level">Advanced</span>
+            <div class="skill-bar" style="--level: 95%"></div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img src="./assets/css.jpg" class="skill-icon" alt="CSS" />
+              </div>
+              <h3>CSS</h3>
+            </div>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar" style="--level: 75%"></div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img
+                  src="./assets/js.jpg"
+                  class="skill-icon"
+                  alt="JavaScript"
+                />
+              </div>
+              <h3>JavaScript</h3>
+            </div>
+            <span class="skill-level">Beginner</span>
+            <div class="skill-bar" style="--level: 50%"></div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-title">
+              <div class="skill-img">
+                <img src="./assets/sql.jpg" class="skill-icon" alt="SQL" />
+              </div>
+              <h3>SQL</h3>
+            </div>
+            <span class="skill-level">Intermediate</span>
+            <div class="skill-bar" style="--level: 70%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="title">Projects</h2>
+      <div class="projects-container">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <h3 class="project-title">Toxic Comment Classification</h3>
+          <p class="project-description">
+            Developed deep learning models with group of 3 members to classify
+            toxic comments in online discussions. Utilized Natural Language
+            Processing (NLP) techniques to preprocess text data, including
+            tokenization. Built models using architectures like LSTM to detect
+            toxic, abusive, and offensive content
+          </p>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card">
+          <h3 class="project-title">School Management System</h3>
+          <p class="project-description">
+            Developed basic Real time website for Little Hearts School Utilized
+            HTML and CSS which is still underprocess for backend using Dajngo.
+          </p>
+          <a
+            href="https://vishalampalli.github.io/lhs/"
+            target="_blank"
+            class="project-btn"
+            >View Demo</a
+          >
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card">
+          <h3 class="project-title">Library Management System</h3>
+          <p class="project-description">
+            A user-friendly interface has been provided for managing the
+            resources of library and performing CRUD operations on Library
+            Database.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>You can reach me at:</p>
+
+        <div class="contact-info">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:alampallivishnu@gmail.com"
+              >alampallivishnu@gmail.com</a
+            >
+          </p>
+          <p>
+            <strong>Phone NO:</strong> <a href="7026380816">+91 7026380816</a>
+          </p>
+          <p><strong>Location:</strong> Gangavathi-583227,Karnataka, India</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Vishnu Alampalli. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://github.com/alampallivish2003" target="_blank"
+            >GitHub</a
+          >
+          <a href="https://www.linkedin.com/in/vishnu-alampalli-37490a227/'"
+            >LinkedIn</a
+          >
+          <a href="./assets/Vishnu-Alampalli-Resume.pdf" download>Resume</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
