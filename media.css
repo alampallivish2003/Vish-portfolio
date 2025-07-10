@@ -43,7 +43,7 @@
     scroll-snap-align: center;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   #projects {
     padding: 2rem 1rem;
   }
@@ -53,12 +53,10 @@
     padding-bottom: 1rem;
   }
 
-  .project-card {
-    min-width: 90vw; /* Make card fill most of screen */
+   .project-card {
+    min-width: 85vw;
     max-width: 90vw;
-    padding: 1.5rem;
   }
-
   .project-title {
     font-size: 1.2rem;
   }
