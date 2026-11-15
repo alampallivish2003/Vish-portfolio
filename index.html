@@ -1,20 +1,20 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vishnu Alampalli | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
   </head>
   <body>
-    <!-- Desktop Navigation -->
     <!-- Desktop Navigation -->
     <nav id="desktop-nav">
       <div class="logo">Vishnu Alampalli</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#freelance">Freelance</a></li>
           <li><a href="#Skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
 
@@ -35,6 +35,7 @@
         <div class="menu-links">
           <ul>
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#freelance" onclick="toggleMenu()">Freelance</a></li>
             <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
 
@@ -55,18 +56,19 @@
       <div class="section_text">
         <p class="section_text_p1">Hello, I'm</p>
         <h1 class="title">Vishnu Alampalli</h1>
+        <p class="section__text__p2">Full Stack Developer &amp; AI Automation Specialist</p>
+        <p class="hero-desc">Building scalable web applications, robust REST APIs, and autonomous AI workflows that solve real business problems.</p>
 
         <!-- Buttons -->
         <div class="btn-container">
+          <a href="#freelance" class="btn btn-color-2">View Work</a>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">Get in Touch</button>
           <a 
-  href="assets/Vishnu-Alampalli-Resume.pdf"
-  download="Vishnu_Alampalli_Resume.pdf"
-  class="btn btn-color-2">
-  Resume
-</a>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
-            Contact Info
-          </button>
+            href="assets/Vishnu-Alampalli-Resume.pdf"
+            download="Vishnu_Alampalli_Resume.pdf"
+            class="btn btn-color-1">
+            Resume
+          </a>
         </div>
 
         <!-- Social Icons -->
@@ -75,7 +77,7 @@
             src="./assets/linkedin.png"
             alt="LinkedIn"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/vishnu-alampalli-37490a227/'"
+            onclick="location.href='https://www.linkedin.com/in/vishnu-alampalli-37490a27'"
           />
           <img
             src="./assets/github.png"
@@ -93,45 +95,137 @@
           <h2 class="title">About Me</h2>
           <div class="section_p">
             <p>
-              I'm <strong>"Vishnu Alampalli"</strong>, a
-              <strong>Computer Science Engineering graduate</strong> passionate
-              about building innovative and practical solutions using
-              technology.<strong> I have completed my Bachelor's degree at Basaveshwar
-              Engineering College (2021–2025)</strong>, with a strong academic foundation
-              and a hands-on approach to learning.
+              I'm <strong>Vishnu Alampalli</strong>, a <strong>Full-Stack Developer and AI Automation Engineer</strong> (B.E. Computer Science, 2021&ndash;2025) dedicated to helping businesses, organizations, and founders turn manual processes into reliable, high-performance digital products.
             </p>
             <p>
-              My key strengths include web development, Python programming, and
-              machine learning. I've developed multiple academic projects such
-              as a
-              <strong
-                >Toxic Comment Classification System using deep learning
-              </strong>
-              and a
-              <strong>School Management System using HTML and CSS</strong>. I
-              enjoy turning complex challenges into simple, elegant solutions.
-            </p>
-
-            <p>
-              I'm also actively involved in extracurricular activities as the
-              <strong
-                >Design Secretary of FOCUS (Forum of Computer Science
-                Undergraduate Students)</strong
-              >, where I contribute to event planning, poster design, and
-              creative content. Additionally, I'm a martial artist, having won a
-              <strong>Gold Medal</strong> in the state-level and
-              <strong>Bronze Medal</strong> in
-              <strong>South Zone Pencak Silat championships</strong> .
+              I specialize in developing production-grade web applications using <strong>Django and React</strong>, alongside designing autonomous, event-driven <strong>n8n workflow pipelines and AI agents</strong>. Whether architecting tournament management platforms with multi-tier access or engineering bilingual policy summarizers powered by LLMs, my focus is always on <strong>reliability, clean code, and commercial value</strong>.
             </p>
             <p>
-              Outside of academics, I enjoy listening to music, watching movies,
-              and traveling. I'm always eager to learn, grow, and contribute
-              meaningfully to any project or team I'm part of.
+              Beyond software engineering, I bring rigorous discipline and focus to everything I build as a competitive martial artist&mdash;having won a <strong>State-Level Gold Medal</strong> and a <strong>South Zone Bronze Medal</strong> in Pencak Silat championships.
+            </p>
+            <p>
+              I partner with high-velocity teams and clients worldwide for <strong>full-time remote engineering roles, contracts, and workflow automation</strong>. Experienced with asynchronous collaboration, Git-based PR workflows, and agile sprints, I focus on shipping clean, maintainable code that creates real business impact.
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Freelancing & Professional Experience Section -->
+    <section id="freelance">
+      <div id="experience"></div>
+      <div class="inner">
+        <div class="freelance-header">
+          <p class="section_text_p1">Client Work &amp; Real-World Solutions</p>
+          <h2 class="title">Freelance Experience</h2>
+        </div>
+
+        <!-- Role 1: Freelance Full Stack Developer & AI Solutions -->
+        <div class="freelance-overview">
+          <div class="freelance-role-badge">
+            <div class="role-badge-header">
+              <div class="role-badge-left">
+                <span class="role-company">Freelance</span>
+                <h3 class="role-title">Full Stack Developer &amp; AI Solutions</h3>
+              </div>
+              <span class="role-date">Dec 2025 &ndash; May 2026</span>
+            </div>
+            <p class="role-desc">
+              Built and deployed production-grade web platforms and autonomous AI workflow systems for real-world clients and organizations, focusing on scalable architecture, user management, and automated intelligence.
+            </p>
+          </div>
+        </div>
+
+        <!-- Freelance Deliverables Grid -->
+        <div class="freelance-container">
+          <!-- Client Deliverable 1: Karnataka State Pencak Silat Association -->
+          <div class="freelance-card">
+            <div>
+              <div class="freelance-card-header">
+                <span class="freelance-badge client-badge">Sports Management Platform</span>
+                <span class="freelance-status-live"><span class="status-dot"></span> Live</span>
+              </div>
+              <h3 class="freelance-card-title">Karnataka State Pencak Silat Association (KSPSA)</h3>
+              <p class="freelance-card-subtitle">Full-Stack Sports &amp; Tournament Management Platform</p>
+              
+              <ul class="freelance-card-list">
+                <li>
+                  Built and deployed a full-stack web platform with <strong>Django</strong>, <strong>React</strong>, and <strong>MySQL</strong>, hosting the backend on <strong>Render</strong> and the frontend on <strong>Vercel</strong>.
+                </li>
+                <li>
+                  Configured multi-tier access management so <strong>5+ district heads</strong> can manage tournament logistics, athlete onboarding, and registration for <strong>50+ participants</strong>.
+                </li>
+                <li>
+                  Streamlined tournament operations, athlete profile documentation, and real-time category updates.
+                </li>
+              </ul>
+
+              <div class="freelance-tags">
+                <span class="tech-tag">Django</span>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Render</span>
+                <span class="tech-tag">Vercel</span>
+              </div>
+            </div>
+
+            <div class="freelance-action">
+              <a
+                href="https://www.karnatakapencaksilat.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="freelance-link-btn"
+              >
+                <span>Live: KSPSA Platform</span>
+                <svg class="external-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Client Deliverable 2: AI Legal & Policy Tracking Agent -->
+          <div class="freelance-card">
+            <div>
+              <div class="freelance-card-header">
+                <span class="freelance-badge ai-badge">AI &amp; Automation</span>
+                <span class="freelance-status-ai">Automated Solution</span>
+              </div>
+              <h3 class="freelance-card-title">AI Legal &amp; Policy Tracking Agent</h3>
+              <p class="freelance-card-subtitle">Intelligent Workflow System &amp; Bilingual Summarization</p>
+              
+              <ul class="freelance-card-list">
+                <li>
+                  Designed and deployed an automated event-driven <strong>n8n workflow</strong> integrating <strong>LLMs</strong> and the <strong>Google Sheets API</strong> to continuously retrieve and process official government policy updates (PIB, Youth Affairs).
+                </li>
+                <li>
+                  Engineered prompt pipelines to automatically produce high-accuracy bilingual <strong>English&ndash;Kannada</strong> summaries for rapid policy review.
+                </li>
+                <li>
+                  Built robust error handling, webhook triggers, and automated data parsing pipelines to ensure high execution reliability.
+                </li>
+              </ul>
+
+              <div class="freelance-tags">
+                <span class="tech-tag">n8n</span>
+                <span class="tech-tag">LLMs</span>
+                <span class="tech-tag">Google Sheets API</span>
+                <span class="tech-tag">Webhooks</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Automation</span>
+              </div>
+            </div>
+
+            <div class="freelance-action">
+              <span class="freelance-tag-status">Autonomous n8n Workflow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- my skills/ -->
     <section id="Skills">
       <div class="inner">
@@ -139,142 +233,193 @@
           <h2>My Skills</h2>
         </div>
 
-        <div class="container">
-          <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img
-                  src="./assets/pyhton.jpg"
-                  class="skill-icon"
-                  alt="Python"
-                />
-              </div>
-              <h3>Python</h3>
-            </div>
-            <span class="skill-level">Advanced</span>
-                      </div>
+        <div class="skills-wrapper">
+          <button class="skills-scroll-btn prev" onclick="scrollSkills(-1)" aria-label="Previous Skill">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
 
-          <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img src="./assets/java.jpg" class="skill-icon" alt="Java" />
+          <div class="container">
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/pyhton.jpg"
+                    class="skill-icon"
+                    alt="Python"
+                  />
+                </div>
+                <h3>Python</h3>
               </div>
-              <h3>Java</h3>
+              <span class="skill-level">Core Stack</span>
             </div>
-            <span class="skill-level">Intermediate</span>
-                      </div>
 
-          <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img src="./assets/html.jpg" class="skill-icon" alt="HTML" />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img src="./assets/java.jpg" class="skill-icon" alt="Java" />
+                </div>
+                <h3>Java</h3>
               </div>
-              <h3>HTML</h3>
+              <span class="skill-level">Proficient</span>
             </div>
-            <span class="skill-level">Advanced</span>
-                      </div>
 
-          <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img src="./assets/css.jpg" class="skill-icon" alt="CSS" />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img src="./assets/html.jpg" class="skill-icon" alt="HTML" />
+                </div>
+                <h3>HTML5</h3>
               </div>
-              <h3>CSS</h3>
+              <span class="skill-level">Production</span>
             </div>
-            <span class="skill-level">Intermediate</span>
-                      </div>
 
-          <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img
-                  src="./assets/js.jpg"
-                  class="skill-icon"
-                  alt="JavaScript"
-                />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img src="./assets/css.jpg" class="skill-icon" alt="CSS" />
+                </div>
+                <h3>CSS3</h3>
               </div>
-              <h3>JavaScript</h3>
+              <span class="skill-level">Production</span>
             </div>
-            <span class="skill-level">Beginner</span>
-                      </div>
 
-          <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img src="./assets/sql.jpg" class="skill-icon" alt="SQL" />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/js.jpg"
+                    class="skill-icon"
+                    alt="JavaScript"
+                  />
+                </div>
+                <h3>JavaScript</h3>
               </div>
-              <h3>SQL</h3>
+              <span class="skill-level">Core Stack</span>
             </div>
-            <span class="skill-level">Intermediate</span>
-                      </div>
 
-           <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img
-                  src="./assets/Machine learning.png"
-                  class="skill-icon"
-                  alt="Machine Learning"
-                />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img src="./assets/sql.jpg" class="skill-icon" alt="SQL" />
+                </div>
+                <h3>SQL / DBs</h3>
               </div>
-              <h3>Machine Learning</h3>
+              <span class="skill-level">Production</span>
             </div>
-            <span class="skill-level">Beginner</span>
-                      </div>
 
-           <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img
-                  src="./assets/dj.png"
-                  class="skill-icon"
-                  alt="Django"
-                />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/Machine learning.png"
+                    class="skill-icon"
+                    alt="Machine Learning"
+                  />
+                </div>
+                <h3>Machine Learning</h3>
               </div>
-              <h3>Django</h3>
+              <span class="skill-level">Proficient</span>
             </div>
-            <span class="skill-level">Beginner</span>
-                      </div>
 
-           <div class="skill-box">
-            <div class="skill-title">
-              <div class="skill-img">
-                <img
-                  src="./assets/figma.png"
-                  class="skill-icon"
-                  alt="Figma "
-                />
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/dj.png"
+                    class="skill-icon"
+                    alt="Django"
+                  />
+                </div>
+                <h3>Django</h3>
               </div>
-              <h3>Figma</h3>
+              <span class="skill-level">Production</span>
             </div>
-            <span class="skill-level">Beginner</span>
-                      </div>
+
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/ai-agents.svg"
+                    class="skill-icon"
+                    alt="AI Agents"
+                  />
+                </div>
+                <h3>AI Agents</h3>
+              </div>
+              <span class="skill-level">Specialized</span>
+            </div>
+
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/n8n.svg"
+                    class="skill-icon"
+                    alt="n8n"
+                  />
+                </div>
+                <h3>n8n Automation</h3>
+              </div>
+              <span class="skill-level">Specialized</span>
+            </div>
+
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/github.png"
+                    class="skill-icon"
+                    alt="Git &amp; GitHub"
+                  />
+                </div>
+                <h3>Git &amp; GitHub</h3>
+              </div>
+              <span class="skill-level">Core Tool</span>
+            </div>
+
+            <div class="skill-box">
+              <div class="skill-title">
+                <div class="skill-img">
+                  <img
+                    src="./assets/figma.png"
+                    class="skill-icon"
+                    alt="Figma "
+                  />
+                </div>
+                <h3>Figma</h3>
+              </div>
+              <span class="skill-level">UI / UX</span>
+            </div>
+          </div>
+
+          <button class="skills-scroll-btn next" onclick="scrollSkills(1)" aria-label="Next Skill">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
         </div>
       </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-      <h2 class="title">Projects</h2>
+      <h2 class="title">Key Projects</h2>
       <div class="projects-container">
         <!-- Project Card 1 -->
         <div class="project-card">
-          <h3 class="project-title">Toxic Comment Classification</h3>
+          <h3 class="project-title">Toxic Comment Detection &amp; NLP Classifier</h3>
           <p class="project-description">
-            Developed deep learning models with group of 3 members to classify
-            toxic comments in online discussions. Utilized Natural Language
-            Processing (NLP) techniques to preprocess text data, including
-            tokenization. Built models using architectures like LSTM to detect
-            toxic, abusive, and offensive content
+            Engineered deep learning NLP classification pipelines using LSTM architectures and word embeddings to detect toxic and abusive online content with ~92% validation accuracy. Preprocessed complex text data with tokenization pipelines and lightweight inference interfaces.
           </p>
         </div>
 
         <!-- Project Card 2 -->
         <div class="project-card">
-          <h3 class="project-title">School Management System</h3>
+          <h3 class="project-title">School Management Web Portal</h3>
           <p class="project-description">
-            Developed basic Real time website for Little Hearts School Utilized
-            HTML and CSS which is still underprocess for backend using Dajngo.
+            Designed and developed an intuitive, responsive frontend web portal for Little Hearts School with modern CSS architecture, structured parent/student navigation, and planned Django REST API backend integration.
           </p>
           <a
             href="https://vishalampalli.github.io/lhs/"
@@ -286,26 +431,10 @@
 
         <!-- Project Card 3 -->
         <div class="project-card">
-          <h3 class="project-title">Library Management System</h3>
+          <h3 class="project-title">Library Resource &amp; Database System</h3>
           <p class="project-description">
-            A user-friendly interface has been provided for managing the
-            resources of library and performing CRUD operations on Library
-            Database.
+            Architected a relational database management interface providing real-time resource tracking, patron record administration, and seamless CRUD operations on library assets.
           </p>
-        </div>
-        <!-- Project Card 4 -->
-        <div class="project-card">
-          <h3 class="project-title">Landing page for Karnataka Pencak Silat</h3>
-          <p class="project-description">
-            Developed a landing page for Karnataka Pencak Silat, and player and tournament management system using HTML, CSS, and JavaScript for frontend and php for backend. 
-            The landing page provides an overview of the sport.
-          </p>
-          <a
-            href="https://alampallivish2003.github.io/karanataka-pencak-silat/"
-            target="_blank"
-            class="project-btn"
-            >View Demo</a
-          >
         </div>
       </div>
     </section>
@@ -313,9 +442,18 @@
     <!-- contact -->
     <section id="contact">
       <div class="contact-container">
-        <h2>Contact Me</h2>
+        <h2>Let's Connect &amp; Build</h2>
+        <div class="availability-badge">
+          <span class="status-dot"></span> Open to Full-Time Remote Roles &amp; Freelance Contracts
+        </div>
 
         <div class="contact-info">
+          <p>
+            <strong>WhatsApp:</strong>
+            <a href="https://wa.me/917026380816" target="_blank" rel="noopener noreferrer"
+              >Chat on WhatsApp (+91 7026380816)</a
+            >
+          </p>
           <p>
             <strong>Email:</strong>
             <a href="mailto:alampallivishnu@gmail.com"
@@ -323,9 +461,9 @@
             >
           </p>
           <p>
-            <strong>Phone NO:</strong> <a href="7026380816">+91 7026380816</a>
+            <strong>Phone:</strong> <a href="tel:+917026380816">+91 7026380816</a>
           </p>
-          <p><strong>Location:</strong> Gangavathi-583227,Karnataka, India</p>
+          <p><strong>Location &amp; Remote Availability:</strong> Gangavathi, Karnataka, India &bull; Available for Remote Roles Worldwide (Flexible with US, EU &amp; IST Timezones)</p>
         </div>
       </div>
     </section>
@@ -338,7 +476,7 @@
           <a href="https://github.com/alampallivish2003" target="_blank"
             >GitHub</a
           >
-          <a href="https://www.linkedin.com/in/vishnu-alampalli-37490a227/'"
+          <a href="https://www.linkedin.com/in/vishnu-alampalli-37490a27" target="_blank"
             >LinkedIn</a
           >
           <a href="./assets/Vishnu-Alampalli-Resume.pdf" download>Resume</a>
@@ -346,7 +484,27 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- External JavaScript -->
+    <script src="./script.js"></script>
+    <!-- Inline fallback to ensure menu always toggles -->
+    <script>
+      function toggleMenu() {
+        const menu = document.querySelector(".menu-links");
+        const icon = document.querySelector(".hamburger-icon");
+        if (menu && icon) {
+          menu.classList.toggle("open");
+          icon.classList.toggle("open");
+        }
+      }
+
+      function scrollSkills(direction) {
+        const container = document.querySelector("#Skills .container");
+        if (container) {
+          const scrollAmount = 280 * direction;
+          container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        }
+      }
+    </script>
   </body>
 </html>
 

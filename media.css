@@ -28,18 +28,9 @@
 /* Mobile Responsive Toggle */
 
 @media (max-width: 1000px) {
-  .container {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-    padding: 1.5rem 20px;
-    gap: 1rem;
-  }
-
   .skill-box {
-    min-width: 250px;
-    flex: 0 0 auto;
+    min-width: 220px;
+    flex: 0 0 220px;
     scroll-snap-align: center;
   }
 }
@@ -60,14 +51,32 @@
 }
 /* Tablet */
 @media (max-width: 992px) {
-  #Skills .container {
-    grid-template-columns: repeat(2, 1fr);
+  .freelance-container {
+    grid-template-columns: 1fr;
+  }
+  .freelance-role-badge {
+    padding: 1.25rem 1.5rem;
   }
 }
 
 /* Mobile */
 @media (max-width: 600px) {
-  #Skills .container {
+  .skill-box {
+    flex: 0 0 190px;
+    min-width: 190px;
+    padding: 1.5rem 1rem;
+  }
+  .freelance-container {
     grid-template-columns: 1fr;
+  }
+  .role-badge-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .role-date {
+    align-self: flex-start;
+  }
+  .freelance-card {
+    padding: 1.5rem 1.25rem;
   }
 }
